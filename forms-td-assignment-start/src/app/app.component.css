@@ -1,0 +1,10 @@
+input, select, button{
+  display: block;
+  padding: 5px;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.ng-touched.ng-invalid:not(:focus){
+  border: 1px solid red;
+}
